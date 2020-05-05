@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w src/scss/ -o src/dist/ --recursive"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "aos": "^2.3.4",
     "node-sass": "^4.14.1",
     "sass": "^1.26.5"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
   }
 }
